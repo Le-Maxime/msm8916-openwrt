@@ -25,12 +25,9 @@ return view.extend({
         // =================================================================
         // Status banner
         // =================================================================
-        var statusText = _('Daemon status') + ': ';
-        if (watchdog_status === 'running') {
-            statusText += '<strong style="color:green">' + _('Running') + '</strong>';
-        } else {
-            statusText += '<strong style="color:red">' + _('Stopped / not installed') + '</strong>';
-        }
+        var statusNode = (watchdog_status === 'running')
+            ? E('strong', { 'style': 'color:green' }, _('Running'))
+            : E('strong', { 'style': 'color:red' }, _('Stopped / not installed'));
 
         var status_section = m.section(form.NamedSection, 'status', '_status');
         s = status_section;
@@ -39,7 +36,7 @@ return view.extend({
                 E('h3', {}, _('Current Status')),
                 E('div', { 'class': 'cbi-value' }, [
                     E('div', { 'class': 'cbi-value-title' }, _('Service')),
-                    E('div', { 'class': 'cbi-value-field' }, statusText)
+                    E('div', { 'class': 'cbi-value-field' }, [ _('Daemon status'), ': ', statusNode ])
                 ])
             ]);
         };

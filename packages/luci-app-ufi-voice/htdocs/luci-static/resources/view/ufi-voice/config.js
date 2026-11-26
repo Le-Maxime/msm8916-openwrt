@@ -214,8 +214,7 @@ return view.extend({
 		o.description = _('Also written to /etc/asterisk/ufi-voice-phones.txt on the device.');
 
 		o = s.option(form.DummyValue, '_registered', _('Registered'));
-		o.rawhtml = true;
-		o.cfgvalue = function(section_id) {
+		o.textvalue = function(section_id) {
 			var num = uci.get('ufivoice', section_id, 'number');
 			var list = (st && st.sip) ? st.sip : [];
 
@@ -224,13 +223,16 @@ return view.extend({
 					continue;
 
 				if (list[i].status === 'down')
-					return '<span style="color:#c62828">' + _('no') + '</span>';
+					return E('span', { 'style': 'color:#c62828' }, _('no'));
 
-				return '<span style="color:#2e7d32">' + _('yes') + '</span>' +
-					(list[i].host ? ' <span style="color:#888">' + list[i].host + '</span>' : '');
+				return E('span', {}, [
+					E('span', { 'style': 'color:#2e7d32' }, _('yes')),
+					list[i].host ? ' ' : '',
+					list[i].host ? E('span', { 'style': 'color:#888' }, list[i].host) : ''
+				]);
 			}
 
-			return '<span style="color:#888">\u2014</span>';
+			return E('span', { 'style': 'color:#888' }, '\u2014');
 		};
 
 		/* ---------------------------------------------------------------- */
