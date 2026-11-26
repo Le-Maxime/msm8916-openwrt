@@ -1,0 +1,187 @@
+msgid ""
+msgstr ""
+"Language: ru\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "USB Gadget Configuration"
+msgstr "Настройка USB-гаджета"
+
+msgid "Configure USB gadget functions. Changes take effect after saving and restarting the service."
+msgstr "Настройка функций USB-гаджета. Изменения вступят в силу после сохранения и перезапуска службы."
+
+msgid "Device Settings"
+msgstr "Настройки устройства"
+
+msgid "Enable USB Gadget"
+msgstr "Включить USB-гаджет"
+
+msgid "Disable to use USB port in host mode."
+msgstr "Отключите, чтобы использовать USB-порт в режиме хоста."
+
+msgid "Ensure alternative access."
+msgstr "Убедитесь, что есть альтернативный доступ."
+
+msgid "Gadget Name"
+msgstr "Имя гаджета"
+
+msgid "Manufacturer"
+msgstr "Производитель"
+
+msgid "Product"
+msgstr "Продукт"
+
+msgid "Vendor ID"
+msgstr "Vendor ID (VID)"
+
+msgid "Must be hex format: 0x1234"
+msgstr "Должен быть в hex-формате: 0x1234"
+
+msgid "Product ID"
+msgstr "Product ID (PID)"
+
+msgid "UDC Device"
+msgstr "Контроллер UDC"
+
+msgid "Auto-detect"
+msgstr "Автоопределение"
+
+msgid "RNDIS (Windows Ethernet)"
+msgstr "RNDIS (Ethernet для Windows)"
+
+msgid "Windows-compatible USB ethernet. Works on all Windows versions."
+msgstr "Совместимый с Windows USB Ethernet. Работает на всех версиях Windows."
+
+msgid "Enable RNDIS"
+msgstr "Включить RNDIS"
+
+msgid "Plug-and-play on Windows. Automatically adds to LAN bridge."
+msgstr "Plug-and-play в Windows. Автоматически добавляется в мост LAN."
+
+msgid "ECM (macOS/Linux Ethernet)"
+msgstr "ECM (Ethernet для macOS/Linux)"
+
+msgid "For macOS ≤10.14 and Linux. Do not enable with NCM."
+msgstr "Для macOS ≤10.14 и Linux. Не включайте одновременно с NCM."
+
+msgid "Enable ECM"
+msgstr "Включить ECM"
+
+msgid "CDC Ethernet for macOS and Linux. Disable RNDIS when using."
+msgstr "CDC Ethernet для macOS и Linux. Отключите RNDIS при использовании."
+
+msgid "NCM (Modern Ethernet)"
+msgstr "NCM (Современный Ethernet)"
+
+msgid "Best performance. For Windows 11+, macOS ≥10.15, Linux."
+msgstr "Лучшая производительность. Для Windows 11+, macOS ≥10.15, Linux."
+
+msgid "Enable NCM"
+msgstr "Включить NCM"
+
+msgid "Modern high-speed USB ethernet. Best choice for new systems."
+msgstr "Современный высокоскоростной USB Ethernet. Лучший выбор для новых ОС."
+
+msgid "ACM (Serial Console)"
+msgstr "ACM (Последовательная консоль)"
+
+msgid "Provides /dev/ttyACM0 on host. Access: screen /dev/ttyACM0 115200"
+msgstr "Создаёт /dev/ttyACM0 на хосте. Доступ: screen /dev/ttyACM0 115200"
+
+msgid "Enable Serial Console"
+msgstr "Включить последовательную консоль"
+
+msgid "Enable Login Shell"
+msgstr "Включить оболочку входа (shell)"
+
+msgid "Provide shell access. Disable for raw TTY."
+msgstr "Предоставить доступ к командной оболочке. Отключите для чистого TTY."
+
+msgid "Connection Info"
+msgstr "Информация о подключении"
+
+msgid "Mass Storage"
+msgstr "USB-накопитель (Mass Storage)"
+
+msgid "Expose storage image as USB drive. Does not provide access to the device."
+msgstr "Подключить образ диска как USB-флешку. Не даёт доступа к системе устройства."
+
+msgid "Enable Mass Storage"
+msgstr "Включить USB-накопитель"
+
+msgid "Image Path"
+msgstr "Путь к образу"
+
+msgid "File will be created automatically if it doesn't exist."
+msgstr "Файл будет создан автоматически, если не существует."
+
+msgid "Image Size"
+msgstr "Размер образа"
+
+msgid "Used when creating (e.g., 512M, 1G, 2G)"
+msgstr "Используется при создании (напр., 512M, 1G, 2G)"
+
+msgid "Read-Only"
+msgstr "Только чтение"
+
+msgid "Mount as read-only on the host computer"
+msgstr "Подключить на компьютере только для чтения"
+
+msgid "Configuration saved. Restarting USB Gadget service..."
+msgstr "Конфигурация сохранена. Перезапуск службы USB-гаджета..."
+
+msgid "USB Gadget service restarted successfully"
+msgstr "Служба USB-гаджета успешно перезапущена"
+
+msgid "Gadget Status"
+msgstr "Статус гаджета"
+
+msgid "Active (Device Mode)"
+msgstr "Активен (режим устройства)"
+
+msgid "Disabled (Host Mode)"
+msgstr "Отключён (режим хоста)"
+
+msgid "Enabled Functions"
+msgstr "Включённые функции"
+
+msgid "None"
+msgstr "Нет"
+
+msgid "USB Controller"
+msgstr "USB-контроллер"
+
+msgid "Network Interfaces"
+msgstr "Сетевые интерфейсы"
+
+msgid "USB Gadget Status"
+msgstr "Статус USB-гаджета"
+
+msgid "View current USB gadget configuration and status"
+msgstr "Просмотр текущей конфигурации и статуса USB-гаджета"
+
+msgid "Current Status"
+msgstr "Текущий статус"
+
+msgid "Restarting service..."
+msgstr "Перезапуск службы..."
+
+msgid "Please wait..."
+msgstr "Пожалуйста, подождите..."
+
+msgid "Failed to restart: %s"
+msgstr "Ошибка перезапуска: %s"
+
+msgid "Restart Service"
+msgstr "Перезапустить службу"
+
+msgid "USB Gadget"
+msgstr "USB-гаджет"
+
+msgid "Overview"
+msgstr "Обзор"
+
+msgid "Configuration"
+msgstr "Настройка"
+

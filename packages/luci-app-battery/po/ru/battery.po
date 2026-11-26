@@ -1,0 +1,112 @@
+msgid ""
+msgstr ""
+"Language: ru\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "Battery & Charge Limit"
+msgstr "Батарея и лимит заряда"
+
+msgid "Live status"
+msgstr "Текущее состояние"
+
+msgid "Charge"
+msgstr "Заряд"
+
+msgid "Battery status"
+msgstr "Состояние батареи"
+
+msgid "Health"
+msgstr "Здоровье"
+
+msgid "Battery voltage"
+msgstr "Напряжение батареи"
+
+msgid "Battery temperature"
+msgstr "Температура батареи"
+
+msgid "VADC"
+msgstr "VADC"
+
+msgid "Charger"
+msgstr "Зарядное устройство"
+
+msgid "Online"
+msgstr "Подключено"
+
+msgid "Offline"
+msgstr "Отключено"
+
+msgid "Charge current"
+msgstr "Ток заряда"
+
+msgid "Charge enabled"
+msgstr "Зарядка включена"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "No"
+msgstr "Нет"
+
+msgid "Charge voltage max"
+msgstr "Макс. напряжение заряда"
+
+msgid "Runtime on battery"
+msgstr "Работа от батареи"
+
+msgid "On battery for"
+msgstr "От батареи"
+
+msgid "On AC power"
+msgstr "Питание от сети"
+
+msgid "Estimated remaining"
+msgstr "Осталось примерно"
+
+msgid "Discharge rate"
+msgstr "Скорость разряда"
+
+msgid "Estimated full runtime"
+msgstr "Расчётное время работы"
+
+msgid "Session start"
+msgstr "Начало сессии"
+
+msgid "needs about five minutes of discharge"
+msgstr "требуется около 5 минут разряда"
+
+msgid "Last session"
+msgstr "Последняя сессия"
+
+msgid "The estimate is derived from the capacity drop since the charger was unplugged, because the PM8916 gauge exposes no current_now."
+msgstr "Оценка рассчитывается по падению ёмкости с момента отключения питания, так как контроллер PM8916 не отдаёт current_now."
+
+msgid "Charging control"
+msgstr "Управление зарядкой"
+
+msgid "Enable charging"
+msgstr "Включить зарядку"
+
+msgid "Disable charging"
+msgstr "Отключить зарядку"
+
+msgid "Disabling charging only clears the charger enable bit; with the charger offline the PMIC ignores it. The charge limit below re-asserts the bit on its own schedule."
+msgstr "Отключение зарядки лишь сбрасывает бит разрешения заряда; без подключённого питания PMIC игнорирует его. Лимит заряда ниже управляет этим битом по своему расписанию."
+
+msgid "Charge limit"
+msgstr "Лимит заряда"
+
+msgid "Enabled"
+msgstr "Включено"
+
+msgid "Stop charging at"
+msgstr "Останавливать заряд на"
+
+msgid "Resume at"
+msgstr "Возобновлять заряд на"
+
+msgid "Save & Apply"
+msgstr "Сохранить и применить"
+

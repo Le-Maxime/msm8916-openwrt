@@ -1,0 +1,109 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Battery & Charge Limit"
+msgstr ""
+
+msgid "Live status"
+msgstr ""
+
+msgid "Charge"
+msgstr ""
+
+msgid "Battery status"
+msgstr ""
+
+msgid "Health"
+msgstr ""
+
+msgid "Battery voltage"
+msgstr ""
+
+msgid "Battery temperature"
+msgstr ""
+
+msgid "VADC"
+msgstr ""
+
+msgid "Charger"
+msgstr ""
+
+msgid "Online"
+msgstr ""
+
+msgid "Offline"
+msgstr ""
+
+msgid "Charge current"
+msgstr ""
+
+msgid "Charge enabled"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "Charge voltage max"
+msgstr ""
+
+msgid "Runtime on battery"
+msgstr ""
+
+msgid "On battery for"
+msgstr ""
+
+msgid "On AC power"
+msgstr ""
+
+msgid "Estimated remaining"
+msgstr ""
+
+msgid "Discharge rate"
+msgstr ""
+
+msgid "Estimated full runtime"
+msgstr ""
+
+msgid "Session start"
+msgstr ""
+
+msgid "needs about five minutes of discharge"
+msgstr ""
+
+msgid "Last session"
+msgstr ""
+
+msgid "The estimate is derived from the capacity drop since the charger was unplugged, because the PM8916 gauge exposes no current_now."
+msgstr ""
+
+msgid "Charging control"
+msgstr ""
+
+msgid "Enable charging"
+msgstr ""
+
+msgid "Disable charging"
+msgstr ""
+
+msgid "Disabling charging only clears the charger enable bit; with the charger offline the PMIC ignores it. The charge limit below re-asserts the bit on its own schedule."
+msgstr ""
+
+msgid "Charge limit"
+msgstr ""
+
+msgid "Enabled"
+msgstr ""
+
+msgid "Stop charging at"
+msgstr ""
+
+msgid "Resume at"
+msgstr ""
+
+msgid "Save & Apply"
+msgstr ""
+

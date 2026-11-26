@@ -1,0 +1,64 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Off"
+msgstr ""
+
+msgid "On"
+msgstr ""
+
+msgid "WMM"
+msgstr ""
+
+msgid "Legacy PS-Poll"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "No clients are associated."
+msgstr ""
+
+msgid "client"
+msgstr ""
+
+msgid "clients"
+msgstr ""
+
+msgid "Connected Clients"
+msgstr ""
+
+msgid "Associated Wi-Fi clients, refreshed every 5 seconds. Read-only."
+msgstr ""
+
+msgid "MAC address"
+msgstr ""
+
+msgid "Interface"
+msgstr ""
+
+msgid "Signal"
+msgstr ""
+
+msgid "Signal avg"
+msgstr ""
+
+msgid "TX rate"
+msgstr ""
+
+msgid "RX rate"
+msgstr ""
+
+msgid "Connected"
+msgstr ""
+
+msgid "Power save"
+msgstr ""
+
+msgid "A client showing Legacy PS-Poll is dozing between beacons. That state is not visible in retry or drop counters, which stay at zero even when the link is stalling."
+msgstr ""
+
+msgid "Clients"
+msgstr ""
+

@@ -1,0 +1,202 @@
+msgid ""
+msgstr ""
+"Language: ru\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "blank"
+msgstr "пусто"
+
+msgid "signal bars"
+msgstr "уровень сигнала"
+
+msgid "operator / NO SIM"
+msgstr "оператор / НЕТ SIM"
+
+msgid "SIM status"
+msgstr "статус SIM"
+
+msgid "Wi-Fi mode"
+msgstr "режим Wi-Fi"
+
+msgid "data activity arrows"
+msgstr "стрелки активности данных"
+
+msgid "battery level / charging"
+msgstr "уровень батареи / зарядка"
+
+msgid "unread SMS count"
+msgstr "непрочитанные SMS"
+
+msgid "call status / incoming call"
+msgstr "статус звонка / входящий вызов"
+
+msgid "Wi-Fi SSID"
+msgstr "имя сети Wi-Fi (SSID)"
+
+msgid "Wi-Fi password"
+msgstr "пароль Wi-Fi"
+
+msgid "IP address"
+msgstr "IP-адрес"
+
+msgid "custom line 1"
+msgstr "своя строка 1"
+
+msgid "custom line 2"
+msgstr "своя строка 2"
+
+msgid "Top band background"
+msgstr "Фон верхней полосы"
+
+msgid "Top band text"
+msgstr "Текст верхней полосы"
+
+msgid "Middle band background"
+msgstr "Фон средней полосы"
+
+msgid "Bottom band background"
+msgstr "Фон нижней полосы"
+
+msgid "Bottom band text"
+msgstr "Текст нижней полосы"
+
+msgid "Active tile"
+msgstr "Активная плитка"
+
+msgid "Inactive tile"
+msgstr "Неактивная плитка"
+
+msgid "Notification background"
+msgstr "Фон уведомлений"
+
+msgid "Notification text"
+msgstr "Текст уведомлений"
+
+msgid "Top band, left"
+msgstr "Верхняя полоса, слева"
+
+msgid "Top band, right"
+msgstr "Верхняя полоса, справа"
+
+msgid "Tile 1"
+msgstr "Плитка 1"
+
+msgid "Tile 2"
+msgstr "Плитка 2"
+
+msgid "Tile 3"
+msgstr "Плитка 3"
+
+msgid "Tile 4"
+msgstr "Плитка 4"
+
+msgid "Bottom band, line 1"
+msgstr "Нижняя полоса, строка 1"
+
+msgid "Bottom band, line 2"
+msgstr "Нижняя полоса, строка 2"
+
+msgid "Live state"
+msgstr "Текущие значения"
+
+msgid "Values the dashboard is showing right now. They refresh every few seconds."
+msgstr "Данные, которые сейчас отображаются на экране. Обновляются каждые несколько секунд."
+
+msgid "No status available; is the collector running?"
+msgstr "Статус недоступен; запущен ли сборщик данных?"
+
+msgid "Dashboard settings saved and redrawn."
+msgstr "Настройки экрана сохранены и применены."
+
+msgid "Saving failed:"
+msgstr "Ошибка сохранения: "
+
+msgid "Dashboard reset to the Android-style defaults. Reloading…"
+msgstr "Настройки экрана сброшены к стандартным (как в Android). Перезагрузка…"
+
+msgid "Reset failed:"
+msgstr "Ошибка сброса: "
+
+msgid "Dashboard refreshed."
+msgstr "Экран обновлён."
+
+msgid "Refresh failed:"
+msgstr "Ошибка обновления: "
+
+msgid "LCD Dashboard"
+msgstr "LCD-экран"
+
+msgid "Choose what the 128x128 LCD shows and in which colours. Each tile can display any source; two custom lines are free text. The panel redraws automatically every few seconds."
+msgstr "Настройка содержимого и цветов экрана 128x128. Каждая плитка может показывать любой источник; две пользовательские строки задаются произвольно. Экран перерисовывается каждые несколько секунд."
+
+msgid "Enable dashboard"
+msgstr "Включить экран"
+
+msgid "Turn the renderer on or off. Power-button LCD control still works either way."
+msgstr "Включить или выключить отрисовку. Управление экраном кнопкой питания работает в любом случае."
+
+msgid "Refresh interval (seconds)"
+msgstr "Интервал обновления (сек)"
+
+msgid "Screen rotation"
+msgstr "Поворот экрана"
+
+msgid "0 degrees (normal)"
+msgstr "0 градусов (обычный)"
+
+msgid "90 degrees clockwise"
+msgstr "90 градусов по часовой"
+
+msgid "180 degrees upside down"
+msgstr "180 градусов (перевёрнутый)"
+
+msgid "270 degrees clockwise"
+msgstr "270 градусов по часовой"
+
+msgid "Notifications"
+msgstr "Уведомления"
+
+msgid "Show new SMS / missed call popups"
+msgstr "Показывать всплывающие окна о новых SMS и пропущенных вызовах"
+
+msgid "Popup duration (seconds)"
+msgstr "Длительность показа (сек)"
+
+msgid "Zones"
+msgstr "Зоны"
+
+msgid "Top band and bottom band are text; the four middle tiles are icons plus a short value. \"blank\" hides a zone."
+msgstr "Верхняя и нижняя полосы — текст; четыре средние плитки — иконка и короткое значение. «пусто» скрывает зону."
+
+msgid "unknown"
+msgstr "неизвестно"
+
+msgid "Custom line 1"
+msgstr "Своя строка 1"
+
+msgid "Shown when a zone is set to custom line 1"
+msgstr "Отображается, если для зоны выбрана «своя строка 1»"
+
+msgid "Custom line 2"
+msgstr "Своя строка 2"
+
+msgid "Shown when a zone is set to custom line 2"
+msgstr "Отображается, если для зоны выбрана «своя строка 2»"
+
+msgid "Colours"
+msgstr "Цвета"
+
+msgid "Pick a swatch or type a #RRGGBB value."
+msgstr "Выберите цвет или введите значение #RRGGBB."
+
+msgid "Refresh now"
+msgstr "Обновить сейчас"
+
+msgid "Restore defaults"
+msgstr "Сбросить настройки"
+
+msgid "Save & apply"
+msgstr "Сохранить и применить"
+

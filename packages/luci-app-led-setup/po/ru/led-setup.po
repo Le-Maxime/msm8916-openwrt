@@ -1,0 +1,154 @@
+msgid ""
+msgstr ""
+"Language: ru\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "Wi-Fi status lamp"
+msgstr "Индикатор статуса Wi-Fi"
+
+msgid "Wi-Fi fault (red half)"
+msgstr "Ошибка Wi-Fi (красный)"
+
+msgid "LTE / WAN signal lamp"
+msgstr "Индикатор сигнала LTE / WAN"
+
+msgid "Modem fault (red)"
+msgstr "Ошибка модема (красный)"
+
+msgid "Data activity (blue)"
+msgstr "Активность данных (синий)"
+
+msgid "Battery charge (green)"
+msgstr "Заряд батареи (зелёный)"
+
+msgid "Battery fault (red)"
+msgstr "Ошибка батареи (красный)"
+
+msgid "auto (board default: %s)"
+msgstr "авто (по умолчанию: %s)"
+
+msgid "auto (board default)"
+msgstr "авто (по умолчанию для платы)"
+
+msgid "%s (not present)"
+msgstr "%s (отсутствует)"
+
+msgid "Pick a lamp for this role first."
+msgstr "Сначала выберите индикатор для этой роли."
+
+msgid "Blink"
+msgstr "Мигнуть"
+
+msgid "off"
+msgstr "выкл"
+
+msgid "on (steady)"
+msgstr "вкл (постоянно)"
+
+msgid "blink fast (100 / 100 ms)"
+msgstr "быстрое мигание (100 / 100 мс)"
+
+msgid "blink rapid (150 / 150 ms)"
+msgstr "частое мигание (150 / 150 мс)"
+
+msgid "blink (250 / 250 ms)"
+msgstr "мигание (250 / 250 мс)"
+
+msgid "blink slow (500 / 500 ms)"
+msgstr "медленное мигание (500 / 500 мс)"
+
+msgid "blink very slow (1 / 1 s)"
+msgstr "очень медленное мигание (1 / 1 с)"
+
+msgid "beacon (0.5 s every 10 s)"
+msgstr "маячок (0.5 с каждые 10 с)"
+
+msgid "default (%s)"
+msgstr "по умолчанию (%s)"
+
+msgid "default"
+msgstr "по умолчанию"
+
+msgid "%s (custom)"
+msgstr "%s (свой)"
+
+msgid "custom…"
+msgstr "свой…"
+
+msgid "Pattern for %s must be off, on or blink:ON_MS:OFF_MS."
+msgstr "Шаблон для %s должен быть off, on или blink:ON_MS:OFF_MS."
+
+msgid "LED mapping saved and the monitors restarted."
+msgstr "Назначение индикаторов сохранено, мониторы перезапущены."
+
+msgid "Saving failed:"
+msgstr "Ошибка сохранения: "
+
+msgid "Every role lamp reset to auto."
+msgstr "Все роли индикаторов сброшены в режим авто."
+
+msgid "Role"
+msgstr "Роль"
+
+msgid "Now"
+msgstr "Сейчас"
+
+msgid "After applying"
+msgstr "После применения"
+
+msgid "Nothing has been written yet. Applying sets these lamps:"
+msgstr "Изменения ещё не записаны. Применение установит следующие индикаторы:"
+
+msgid "Preview failed:"
+msgstr "Ошибка предпросмотра: "
+
+msgid "Applying the table failed:"
+msgstr "Ошибка применения таблицы: "
+
+msgid "Table applied. Reloading so the roles above show it."
+msgstr "Таблица применена. Перезагрузка для отображения ролей."
+
+msgid "Known-good tables"
+msgstr "Готовые таблицы"
+
+msgid "For a unit whose LEDs are wired differently from its board default — on HMUF02-V5, the population with green and blue the other way round. Pick the table that matches what you see, preview it, then apply."
+msgstr "Для устройств с другой разводкой светодиодов (например, на HMUF02-V5 с перепутанными зелёным и синим). Выберите подходящую таблицу, проверьте и примените."
+
+msgid "Table"
+msgstr "Таблица"
+
+msgid "Preview"
+msgstr "Предпросмотр"
+
+msgid "Apply table"
+msgstr "Применить таблицу"
+
+msgid "LED Setup"
+msgstr "Настройка индикаторов"
+
+msgid "This is the configuration in effect now. If a unit has its Wi-Fi and LTE lamps swapped, point the roles at the correct labels; \"auto\" follows the board default, shown next to it. \"Blink\" lights the selected lamp for three seconds so you can see which one it is. Leave everything as it is and nothing changes."
+msgstr "Текущая конфигурация индикаторов. Если индикаторы Wi-Fi и LTE перепутаны, укажите нужные роли; «авто» использует значение платы по умолчанию. Кнопка «Мигнуть» зажигает выбранный светодиод на 3 секунды."
+
+msgid "Lamp"
+msgstr "Индикатор"
+
+msgid "Reset lamps to auto"
+msgstr "Сбросить в авто"
+
+msgid "Save & apply"
+msgstr "Сохранить и применить"
+
+msgid "Patterns"
+msgstr "Режимы мигания"
+
+msgid "Pick a pattern for each scenario. \"default\" keeps the built-in timing shown next to it; pick a preset to pin it, or \"custom…\" to type your own blink:ON_MS:OFF_MS."
+msgstr "Выберите режим для каждого сценария. «по умолчанию» сохраняет встроенные тайминги; выберите пресет или «свой…» для ввода blink:ON_MS:OFF_MS."
+
+msgid "Scenario"
+msgstr "Сценарий"
+
+msgid "Pattern"
+msgstr "Режим"
+

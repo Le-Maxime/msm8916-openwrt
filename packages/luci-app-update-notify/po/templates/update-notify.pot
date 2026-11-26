@@ -1,0 +1,70 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Upgrade firmware"
+msgstr ""
+
+msgid "Dismiss"
+msgstr ""
+
+msgid "Firmware upgrade complete: %s -> %s. Your settings were kept."
+msgstr ""
+
+msgid "Firmware upgrade complete. You are now running %s."
+msgstr ""
+
+msgid "Firmware update available: %s -> %s"
+msgstr ""
+
+msgid "Last checked %s."
+msgstr ""
+
+msgid "This downloads the new firmware and reboots the device. Your settings are kept. The image checksum is verified before flashing. Continue?"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Upgrade"
+msgstr ""
+
+msgid "Confirm firmware upgrade"
+msgstr ""
+
+msgid "Upgrading..."
+msgstr ""
+
+msgid "Downloading firmware and verifying checksum..."
+msgstr ""
+
+msgid "Checksum verified. Rebooting to apply..."
+msgstr ""
+
+msgid "Download failed - check network and system log."
+msgstr ""
+
+msgid "Retry upgrade"
+msgstr ""
+
+msgid "Install"
+msgstr ""
+
+msgid "A fix for your build is available: %s."
+msgstr ""
+
+msgid "%d fixes for your build are available."
+msgstr ""
+
+msgid "Review and install"
+msgstr ""
+
+msgid "Could not save the setting: %s"
+msgstr ""
+
+msgid "1 package update is available."
+msgstr ""
+
+msgid "%d package updates are available."
+msgstr ""
+

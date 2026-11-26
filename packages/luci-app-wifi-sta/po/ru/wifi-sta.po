@@ -1,0 +1,361 @@
+msgid ""
+msgstr ""
+"Language: ru\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "Station Mode"
+msgstr "Режим клиента (Station Mode)"
+
+msgid "A client interface on the same radio as the access point. The access point is moved to the upstream’s channel automatically, because one radio can only use one channel at a time."
+msgstr "Клиентский интерфейс на том же радиомодуле, что и точка доступа. Точка доступа автоматически переходит на канал вышестоящей сети, так как один радиомодуль работает только на одном канале."
+
+msgid "Station"
+msgstr "Клиент Wi-Fi"
+
+msgid "Enable station mode"
+msgstr "Включить режим клиента"
+
+msgid "Off by default. The interface is created a few seconds after the access point is up."
+msgstr "Выключено по умолчанию. Интерфейс создаётся через несколько секунд после запуска точки доступа."
+
+msgid "Hostname to announce"
+msgstr "Имя хоста (DHCP)"
+
+msgid "Sent to the upstream network as the DHCP hostname (option 12), so the upstream router can resolve this device by name. Leave empty to use the system hostname (%s)."
+msgstr "Передаётся вышестоящему роутеру как имя хоста DHCP (опция 12). Оставьте пустым, чтобы использовать системное имя (%s)."
+
+msgid "(system hostname)"
+msgstr "(системное имя)"
+
+msgid "Station MAC address"
+msgstr "MAC-адрес клиента"
+
+msgid "Must differ from the access point’s address, otherwise the interface cannot be brought up."
+msgstr "Должен отличаться от MAC-адреса точки доступа, иначе интерфейс не поднимется."
+
+msgid "Expected six colon-separated hex octets"
+msgstr "Ожидаются шесть hex-октетов через двоеточие"
+
+msgid "Request an address (DHCP)"
+msgstr "Запрашивать адрес (DHCP)"
+
+msgid "Ask the upstream access point for an address."
+msgstr "Получать IP-адрес от вышестоящей точки доступа."
+
+msgid "Use this link as an internet uplink"
+msgstr "Использовать как резервный канал интернета"
+
+msgid "When the modem has no data connection, send traffic and DNS through the upstream access point. The modem keeps priority while it has a default route, so this only takes over when the mobile link is down."
+msgstr "Если у модема нет мобильного интернета, направлять трафик и DNS через вышестоящий Wi-Fi. Модем сохраняет приоритет, пока работает мобильная сеть."
+
+msgid "Uplink route metric"
+msgstr "Метрика маршрута"
+
+msgid "Higher than the modem’s, so the mobile link stays the default route while it works."
+msgstr "Выше, чем у модема, чтобы мобильная связь оставалась маршрутом по умолчанию, пока она работает."
+
+msgid "Radio whose channel follows the upstream"
+msgstr "Радиомодуль, канал которого следует за вышестоящей сетью"
+
+msgid "Watchdog timeout (seconds)"
+msgstr "Таймаут watchdog (сек)"
+
+msgid "How long the station may stay down before it is recycled. 0 disables the check."
+msgstr "Через сколько секунд простоя перезапускать клиентский интерфейс. 0 отключает проверку."
+
+msgid "Wait for the AP at start (seconds)"
+msgstr "Ожидание точки доступа при старте (сек)"
+
+msgid "Saved networks"
+msgstr "Сохранённые сети"
+
+msgid "Every enabled row is handed to wpa_supplicant; it joins whichever is in range and moves on to the next one when a password is rejected. A rejected password is reported on the Status page."
+msgstr "Все включённые сети передаются в wpa_supplicant; он подключается к доступной в радиусе действия и переходит к следующей при неверном пароле. Ошибка пароля отображается на странице статуса."
+
+msgid "Add network"
+msgstr "Добавить сеть"
+
+msgid "SSID"
+msgstr "SSID"
+
+msgid "Enter the network name (SSID) for this password."
+msgstr "Введите имя сети (SSID) для этого пароля."
+
+msgid "An SSID is at most 32 characters."
+msgstr "SSID не может быть длиннее 32 символов."
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "(leave empty for an open network)"
+msgstr "(оставьте пустым для открытой сети)"
+
+msgid "A WPA password is 8 to 63 characters (or 64 hex digits)."
+msgstr "Пароль WPA должен содержать от 8 до 63 символов (или 64 hex-символа)."
+
+msgid "Disabled"
+msgstr "Отключено"
+
+msgid "Keep the row but never try it."
+msgstr "Сохранить запись, но не подключаться."
+
+msgid "Nearby networks"
+msgstr "Доступные сети рядом"
+
+msgid "Press Scan to list what this radio can see."
+msgstr "Нажмите «Сканировать» для поиска сетей."
+
+msgid "The access point interface was not found — is Wi-Fi up? Try again in a moment."
+msgstr "Интерфейс точки доступа не найден — включён ли Wi-Fi? Попробуйте через несколько секунд."
+
+msgid "Scanning…"
+msgstr "Сканирование…"
+
+msgid "No networks found."
+msgstr "Сети не найдены."
+
+msgid "%s is already saved. Change its password above if needed, then Save & Apply."
+msgstr "Сеть %s уже сохранена. При необходимости измените пароль выше и нажмите «Сохранить и применить»."
+
+msgid "%s is an open network — no password needed. Press Save & Apply."
+msgstr "%s — открытая сеть, пароль не нужен. Нажмите «Сохранить и применить»."
+
+msgid "SSID set to %s — type its password above, then Save & Apply."
+msgstr "Выбран SSID %s — введите пароль выше и нажмите «Сохранить и применить»."
+
+msgid "Added %s — type its password above, then Save & Apply."
+msgstr "Сеть %s добавлена — введите пароль выше и нажмите «Сохранить и применить»."
+
+msgid "Could not add %s: %s"
+msgstr "Не удалось добавить %s: %s"
+
+msgid "Use"
+msgstr "Выбрать"
+
+msgid "Channel"
+msgstr "Канал"
+
+msgid "Signal"
+msgstr "Сигнал"
+
+msgid "Encryption"
+msgstr "Шифрование"
+
+msgid "Scan failed: %s"
+msgstr "Ошибка сканирования: %s"
+
+msgid "Scan"
+msgstr "Сканировать"
+
+msgid "Wrong password for %s — correct it above and save again."
+msgstr "Неверный пароль для %s — исправьте выше и сохраните снова."
+
+msgid "Station mode is disabled."
+msgstr "Режим клиента отключён."
+
+msgid "Connected to %s"
+msgstr "Подключено к %s"
+
+msgid "Not connected. A saved network is tried in order; a rejected password is reported here."
+msgstr "Не подключено. Сохранённые сети перебираются по порядку; неверный пароль будет показан здесь."
+
+msgid "Access point"
+msgstr "Точка доступа"
+
+msgid "State"
+msgstr "Состояние"
+
+msgid "Clients"
+msgstr "Клиенты"
+
+msgid "not running"
+msgstr "не запущена"
+
+msgid "Station interface"
+msgstr "Клиентский интерфейс"
+
+msgid "connected"
+msgstr "подключён"
+
+msgid "not connected"
+msgstr "не подключён"
+
+msgid "Upstream SSID"
+msgstr "Внешний SSID"
+
+msgid "Upstream BSSID"
+msgstr "Внешний BSSID"
+
+msgid "Tx bitrate"
+msgstr "Скорость передачи"
+
+msgid "Address"
+msgstr "Адрес"
+
+msgid "Handshake-timeout reloads"
+msgstr "Перезапуски по таймауту handshake"
+
+msgid "not present"
+msgstr "отсутствует"
+
+msgid "Wrong password:"
+msgstr "Неверный пароль: "
+
+msgid "the saved network %s rejected the password. Open the Configuration tab, correct it and Save & Apply — the device keeps trying the other saved networks meanwhile."
+msgstr "сеть %s отклонила пароль. Откройте вкладку «Настройка», исправьте пароль и сохраните — тем временем устройство пробует другие сети."
+
+msgid "Channel mismatch."
+msgstr "Несовпадение каналов. "
+
+msgid "The access point is on channel %s but the station is on %s. One radio can only use one channel — restart the service to make the AP follow the upstream."
+msgstr "Точка доступа на канале %s, а клиент на %s. Один радиомодуль может работать только на одном канале — перезапустите службу, чтобы точка доступа подстроилась."
+
+msgid "Station mode is enabled but the station is not connected. The watchdog retries every %s s; see the log below for the reason."
+msgstr "Режим клиента включён, но не подключён. Watchdog повторяет попытки каждые %s с; подробности в журнале ниже."
+
+msgid "Crash risk:"
+msgstr "Риск сбоя: "
+
+msgid "the wireless config still has a station interface (%s). A radio restart with that configured crashes the WCNSS firmware — disable it in Network → Wireless and use this page instead."
+msgstr "в конфиге wireless всё ещё есть клиентский интерфейс (%s). Перезапуск радио с ним вызывает сбой прошивки WCNSS — отключите его в Сеть → Беспроводная сеть и используйте эту страницу."
+
+msgid "Command failed: %s"
+msgstr "Ошибка команды: %s"
+
+msgid "Station mode log"
+msgstr "Журнал режима клиента"
+
+msgid "(empty)"
+msgstr "(пусто)"
+
+msgid "Close"
+msgstr "Закрыть"
+
+msgid "A second, client-side Wi-Fi interface on the same radio as the access point."
+msgstr "Второй (клиентский) Wi-Fi-интерфейс на том же радиомодуле, что и точка доступа. "
+
+msgid "It is created by a service after the AP is up — it is deliberately not part of the wireless config, because a radio restart with a station interface configured crashes the Wi-Fi firmware."
+msgstr "Он создаётся службой после запуска точки доступа — намеренно вынесен из конфига wireless, так как перезапуск радио с клиентским интерфейсом приводит к сбою прошивки Wi-Fi."
+
+msgid "Status"
+msgstr "Статус "
+
+msgid "enabled"
+msgstr "включено"
+
+msgid "disabled"
+msgstr "отключено"
+
+msgid "Service restarted."
+msgstr "Служба перезапущена."
+
+msgid "Restart service"
+msgstr "Перезапустить службу"
+
+msgid "Service stopped."
+msgstr "Служба остановлена."
+
+msgid "Stop"
+msgstr "Остановить"
+
+msgid "Service started."
+msgstr "Служба запущена."
+
+msgid "Start"
+msgstr "Запустить"
+
+msgid "Show log"
+msgstr "Показать журнал"
+
+msgid "healthy"
+msgstr "работает"
+
+msgid "present, probing"
+msgstr "проверка"
+
+msgid "down"
+msgstr "недоступен"
+
+msgid "Modem (LTE)"
+msgstr "Модем (LTE)"
+
+msgid "Wi-Fi station"
+msgstr "Wi-Fi клиент"
+
+msgid "Active uplink:"
+msgstr "Активный канал: "
+
+msgid "Link"
+msgstr "Канал"
+
+msgid "Device"
+msgstr "Устройство"
+
+msgid "Gateway"
+msgstr "Шлюз"
+
+msgid "DNS"
+msgstr "DNS"
+
+msgid "Uplink policy"
+msgstr "Политика переключения каналов"
+
+msgid "Choose which path to the internet is preferred and how a failed link is detected."
+msgstr "Выберите приоритетный канал интернета и параметры проверки доступности. "
+
+msgid "With policy \"Auto\" the modem wins while it is healthy and the Wi-Fi station takes over"
+msgstr "В режиме «Авто» приоритет у модема, а при его сбое трафик переходит на Wi-Fi клиента "
+
+msgid "when the modem has no route or fails its health probe. The station DNS defaults to 8.8.8.8 8.8.4.4."
+msgstr "(если пропадает маршрут или проверки связи). По умолчанию DNS клиента: 8.8.8.8 8.8.4.4."
+
+msgid "Policy"
+msgstr "Политика"
+
+msgid "Auto (modem first, station fallback)"
+msgstr "Авто (сначала модем, резерв — Wi-Fi)"
+
+msgid "Modem only"
+msgstr "Только модем"
+
+msgid "Station preferred"
+msgstr "Приоритет Wi-Fi клиента"
+
+msgid "Station DNS"
+msgstr "DNS для Wi-Fi клиента"
+
+msgid "DNS servers advertised on the station uplink (space separated). Leave empty to use the DHCP-provided DNS."
+msgstr "DNS-серверы для клиентского канала (через пробел). Оставьте пустым для использования DNS от DHCP."
+
+msgid "Probe target"
+msgstr "Цель проверки"
+
+msgid "Probe interval (s)"
+msgstr "Интервал проверки (с)"
+
+msgid "Probe timeout (s)"
+msgstr "Таймаут проверки (с)"
+
+msgid "Failures to mark down"
+msgstr "Ошибок для отключения"
+
+msgid "Successes to mark up"
+msgstr "Успехов для включения"
+
+msgid "Uplink"
+msgstr "Внешний канал (Uplink)"
+
+msgid "The dual-uplink manager selects the default route between the LTE modem and the"
+msgstr "Менеджер двойного канала выбирает маршрут по умолчанию между LTE-модемом и "
+
+msgid "Wi-Fi station, with health probes and a user policy."
+msgstr "Wi-Fi клиентом с проверками связи и настраиваемой политикой."
+
+msgid "Overview"
+msgstr "Обзор"
+
+msgid "Configuration"
+msgstr "Настройка"
+

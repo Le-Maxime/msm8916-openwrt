@@ -1,0 +1,154 @@
+msgid ""
+msgstr ""
+"Language: ru\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "Modem Watchdog"
+msgstr "Контроль модема (Watchdog)"
+
+msgid "Detects stalled LTE bearers and recovers the interface automatically. Changes take effect after saving and restarting the daemon."
+msgstr "Обнаруживает зависания LTE-канала и автоматически восстанавливает интерфейс. Изменения вступают в силу после сохранения и перезапуска службы."
+
+msgid "Running"
+msgstr "Запущена"
+
+msgid "Stopped / not installed"
+msgstr "Остановлена / не установлена"
+
+msgid "Current Status"
+msgstr "Текущий статус"
+
+msgid "Service"
+msgstr "Служба"
+
+msgid "Daemon status"
+msgstr "Статус службы"
+
+msgid "Watchdog Behaviour"
+msgstr "Поведение Watchdog"
+
+msgid "Enable watchdog"
+msgstr "Включить watchdog"
+
+msgid "Turn the stall-detection watchdog on or off entirely."
+msgstr "Полностью включить или выключить службу отслеживания зависаний модема."
+
+msgid "Auto mobile (detect movement)"
+msgstr "Авто-определение движения"
+
+msgid "Automatically switch to the 30s/5s handover-safe profile when the serving cell changes (the device is moving), and revert to the stationary profile after a period of stillness. Boots into the stationary profile, so a parked device is unaffected. ON by default."
+msgstr "Автоматически переключаться на мобильный профиль 30с/5с при смене базовой станции (устройство в движении) и возвращаться к стационарному профилю после остановки. При загрузке используется стационарный профиль. Включено по умолчанию."
+
+msgid "Mobile mode (force, manual)"
+msgstr "Мобильный режим (принудительно)"
+
+msgid "Force the 30s/5s stall-detection profile at all times (car, travel router) instead of auto-detecting movement. Only shown when Auto mobile is OFF; with Auto mobile ON this is unnecessary."
+msgstr "Принудительно использовать профиль 30с/5с постоянно (в машине, в дороге) вместо автоопределения движения. Показывается только при выключенном автоопределении движения."
+
+msgid "Mobile grace (seconds)"
+msgstr "Задержка мобильного режима (сек)"
+
+msgid "Keep the mobile profile this long after the last detected cell change before reverting to stationary."
+msgstr "Сколько секунд удерживать мобильный профиль после последней смены базовой станции перед возвратом к стационарному."
+
+msgid "Cell poll (seconds)"
+msgstr "Опрос соты (сек)"
+
+msgid "How often the watchdog samples the serving cell over ModemManager D-Bus to detect movement. Read-only; never wedges the modem."
+msgstr "Как часто watchdog опрашивает текущую соту через ModemManager D-Bus для определения движения. Только чтение; не приводит к зависанию модема."
+
+msgid "Stall timeout (seconds)"
+msgstr "Таймаут зависания (сек)"
+
+msgid "How long the bearer is quiet before the watchdog declares a stall. Range 30–600; the manual_override config can set values below 30 but the script will clamp to 30."
+msgstr "Через сколько секунд отсутствия трафика watchdog фиксирует зависание канала. Диапазон 30–600; скрипт ограничивает минимум 30 секундами."
+
+msgid "Check interval (seconds)"
+msgstr "Интервал проверки (сек)"
+
+msgid "How often the watchdog checks RX counters."
+msgstr "Как часто watchdog проверяет счётчики входящего трафика (RX)."
+
+msgid "Recovery cooldown (seconds)"
+msgstr "Пауза после восстановления (сек)"
+
+msgid "Minimum gap between consecutive recovery attempts, so a flaky tower cannot flap the interface back-to-back."
+msgstr "Минимальная пауза между попытками восстановления, чтобы нестабильная вышка не вызывала постоянные переподключения интерфейса."
+
+msgid "Keepalive (normally off)"
+msgstr "Keepalive (обычно выключен)"
+
+msgid "DNS keepalive"
+msgstr "DNS keepalive"
+
+msgid "Sends a tiny DNS query every few minutes while idle to keep the modem’s RRC layer in RRC_CONNECTED. Stock Android does NOT do this — leave disabled unless you have a specific network that drops silent bearers."
+msgstr "Отправляет короткий DNS-запрос каждые несколько минут при простое, чтобы удерживать RRC-слой модема в состоянии RRC_CONNECTED. Оставьте выключенным, если ваша сеть сама не обрывает неактивные сессии."
+
+msgid "Keepalive interval (seconds)"
+msgstr "Интервал keepalive (сек)"
+
+msgid "Keepalive target"
+msgstr "Цель keepalive"
+
+msgid "Hostname that get a DNS lookup each interval."
+msgstr "Доменное имя для периодического DNS-запроса."
+
+msgid "Recovery escalation"
+msgstr "Эскалация восстановления"
+
+msgid "Allow SSR restart (modem subsystem reset)"
+msgstr "Разрешить перезапуск SSR (сброс подсистемы модема)"
+
+msgid "Stage-3 ladder: restart the modem remoteproc. Android’s stock bam_dmux calls subsystem_restart(\"modem\") on the same A2 timeout sites, so this is parity. Disable ONLY if you want the modem state frozen for post-mortem analysis."
+msgstr "Этап 3 восстановления: перезапуск подсистемы модема (remoteproc). Отключайте ТОЛЬКО если нужно заморозить состояние модема для отладки."
+
+msgid "Bearer-down redrive (seconds)"
+msgstr "Перезапуск при падении канала (сек)"
+
+msgid "A netifd \"down\" interface still down this long after a rebuild is stuck — the watchdog retriggers `ifup` and re-arms the proto."
+msgstr "Если интерфейс в netifd остаётся в состоянии down дольше этого времени после переподключения, watchdog принудительно вызывает `ifup`."
+
+msgid "Zombie-modem nudge (seconds)"
+msgstr "Проверка «зависшего» модема (сек)"
+
+msgid "After a modem crash the baseband can land in a low-power zombie state (no modem object, no registration). This many seconds without a modem object triggers one qmicli --dms-set-operating-mode=online poke. Set to 0 to disable."
+msgstr "После сбоя модем может застрять в энергосберегающем «зомби»-состоянии (нет объекта модема и регистрации). По истечении этого времени вызывается qmicli --dms-set-operating-mode=online. 0 — отключить."
+
+msgid "Voice liveness hold"
+msgstr "Удержание при голосовом вызове"
+
+msgid "When the data bearer has no downlink, skip the recovery ladder (no interface rebuild, no SSR) while a call is in progress, or, for a SIM without data service, while the modem is alive for voice (IMS registered, or registered with live serving-cell measurements). Restarting the modem cannot bring data to a voice-only SIM."
+msgstr "Если по каналу данных нет входящего трафика, не запускать восстановление (ни пересборку интерфейса, ни SSR) во время звонка или если на голосовой SIM-карте модем активен для вызовов (IMS/регистрация). Перезагрузка модема не добавит интернет голосовой SIM."
+
+msgid "SIM data service"
+msgstr "Передача данных на SIM"
+
+msgid "Auto (no downlink with this SIM since boot = no data service)"
+msgstr "Авто (нет входящего трафика с запуска = нет передачи данных)"
+
+msgid "Data SIM (only a call holds the ladder)"
+msgstr "SIM с интернетом (удержание только на время звонка)"
+
+msgid "Voice-only SIM"
+msgstr "Только голосовая SIM"
+
+msgid "Auto tracks the SIM by ICCID: a SIM swap starts over, a modem restart does not. Any downlink packet ends the hold."
+msgstr "Авто-режим отслеживает SIM по ICCID: смена SIM сбрасывает состояние, перезагрузка модема — нет. Любой входящий пакет данных завершает удержание."
+
+msgid "Voice hold recheck (seconds)"
+msgstr "Повторная проверка удержания (сек)"
+
+msgid "How long a voice hold lasts before the watchdog checks again whether the modem is still alive for voice."
+msgstr "Длительность удержания до следующей проверки, активен ли модем для голосовых вызовов."
+
+msgid "Drop modem default route during hold"
+msgstr "Сбрасывать маршрут по умолчанию во время удержания"
+
+msgid "While a SIM without data service is held, remove the modem's default routes so traffic never falls back to the empty bearer (e.g. while the Wi-Fi station reconnects). Only while another uplink has a default route or had one in the last 5 minutes; with the modem as the only uplink the routes stay. They are restored when the hold ends. A data SIM keeps its routes."
+msgstr "При удержании SIM без интернета удалять маршруты по умолчанию модема, чтобы трафик не уходил в пустой канал (например, пока переподключается Wi-Fi клиент), если есть другой активный канал. Для SIM с интернетом маршруты сохраняются."
+
+msgid "Watchdog restart requested; check status if anything looks wrong."
+msgstr "Запрошен перезапуск watchdog; проверьте статус при необходимости."
+

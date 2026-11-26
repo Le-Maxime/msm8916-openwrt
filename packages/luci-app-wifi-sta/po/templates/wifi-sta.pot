@@ -1,0 +1,358 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Station Mode"
+msgstr ""
+
+msgid "A client interface on the same radio as the access point. The access point is moved to the upstream’s channel automatically, because one radio can only use one channel at a time."
+msgstr ""
+
+msgid "Station"
+msgstr ""
+
+msgid "Enable station mode"
+msgstr ""
+
+msgid "Off by default. The interface is created a few seconds after the access point is up."
+msgstr ""
+
+msgid "Hostname to announce"
+msgstr ""
+
+msgid "Sent to the upstream network as the DHCP hostname (option 12), so the upstream router can resolve this device by name. Leave empty to use the system hostname (%s)."
+msgstr ""
+
+msgid "(system hostname)"
+msgstr ""
+
+msgid "Station MAC address"
+msgstr ""
+
+msgid "Must differ from the access point’s address, otherwise the interface cannot be brought up."
+msgstr ""
+
+msgid "Expected six colon-separated hex octets"
+msgstr ""
+
+msgid "Request an address (DHCP)"
+msgstr ""
+
+msgid "Ask the upstream access point for an address."
+msgstr ""
+
+msgid "Use this link as an internet uplink"
+msgstr ""
+
+msgid "When the modem has no data connection, send traffic and DNS through the upstream access point. The modem keeps priority while it has a default route, so this only takes over when the mobile link is down."
+msgstr ""
+
+msgid "Uplink route metric"
+msgstr ""
+
+msgid "Higher than the modem’s, so the mobile link stays the default route while it works."
+msgstr ""
+
+msgid "Radio whose channel follows the upstream"
+msgstr ""
+
+msgid "Watchdog timeout (seconds)"
+msgstr ""
+
+msgid "How long the station may stay down before it is recycled. 0 disables the check."
+msgstr ""
+
+msgid "Wait for the AP at start (seconds)"
+msgstr ""
+
+msgid "Saved networks"
+msgstr ""
+
+msgid "Every enabled row is handed to wpa_supplicant; it joins whichever is in range and moves on to the next one when a password is rejected. A rejected password is reported on the Status page."
+msgstr ""
+
+msgid "Add network"
+msgstr ""
+
+msgid "SSID"
+msgstr ""
+
+msgid "Enter the network name (SSID) for this password."
+msgstr ""
+
+msgid "An SSID is at most 32 characters."
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "(leave empty for an open network)"
+msgstr ""
+
+msgid "A WPA password is 8 to 63 characters (or 64 hex digits)."
+msgstr ""
+
+msgid "Disabled"
+msgstr ""
+
+msgid "Keep the row but never try it."
+msgstr ""
+
+msgid "Nearby networks"
+msgstr ""
+
+msgid "Press Scan to list what this radio can see."
+msgstr ""
+
+msgid "The access point interface was not found — is Wi-Fi up? Try again in a moment."
+msgstr ""
+
+msgid "Scanning…"
+msgstr ""
+
+msgid "No networks found."
+msgstr ""
+
+msgid "%s is already saved. Change its password above if needed, then Save & Apply."
+msgstr ""
+
+msgid "%s is an open network — no password needed. Press Save & Apply."
+msgstr ""
+
+msgid "SSID set to %s — type its password above, then Save & Apply."
+msgstr ""
+
+msgid "Added %s — type its password above, then Save & Apply."
+msgstr ""
+
+msgid "Could not add %s: %s"
+msgstr ""
+
+msgid "Use"
+msgstr ""
+
+msgid "Channel"
+msgstr ""
+
+msgid "Signal"
+msgstr ""
+
+msgid "Encryption"
+msgstr ""
+
+msgid "Scan failed: %s"
+msgstr ""
+
+msgid "Scan"
+msgstr ""
+
+msgid "Wrong password for %s — correct it above and save again."
+msgstr ""
+
+msgid "Station mode is disabled."
+msgstr ""
+
+msgid "Connected to %s"
+msgstr ""
+
+msgid "Not connected. A saved network is tried in order; a rejected password is reported here."
+msgstr ""
+
+msgid "Access point"
+msgstr ""
+
+msgid "State"
+msgstr ""
+
+msgid "Clients"
+msgstr ""
+
+msgid "not running"
+msgstr ""
+
+msgid "Station interface"
+msgstr ""
+
+msgid "connected"
+msgstr ""
+
+msgid "not connected"
+msgstr ""
+
+msgid "Upstream SSID"
+msgstr ""
+
+msgid "Upstream BSSID"
+msgstr ""
+
+msgid "Tx bitrate"
+msgstr ""
+
+msgid "Address"
+msgstr ""
+
+msgid "Handshake-timeout reloads"
+msgstr ""
+
+msgid "not present"
+msgstr ""
+
+msgid "Wrong password:"
+msgstr ""
+
+msgid "the saved network %s rejected the password. Open the Configuration tab, correct it and Save & Apply — the device keeps trying the other saved networks meanwhile."
+msgstr ""
+
+msgid "Channel mismatch."
+msgstr ""
+
+msgid "The access point is on channel %s but the station is on %s. One radio can only use one channel — restart the service to make the AP follow the upstream."
+msgstr ""
+
+msgid "Station mode is enabled but the station is not connected. The watchdog retries every %s s; see the log below for the reason."
+msgstr ""
+
+msgid "Crash risk:"
+msgstr ""
+
+msgid "the wireless config still has a station interface (%s). A radio restart with that configured crashes the WCNSS firmware — disable it in Network → Wireless and use this page instead."
+msgstr ""
+
+msgid "Command failed: %s"
+msgstr ""
+
+msgid "Station mode log"
+msgstr ""
+
+msgid "(empty)"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "A second, client-side Wi-Fi interface on the same radio as the access point."
+msgstr ""
+
+msgid "It is created by a service after the AP is up — it is deliberately not part of the wireless config, because a radio restart with a station interface configured crashes the Wi-Fi firmware."
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "enabled"
+msgstr ""
+
+msgid "disabled"
+msgstr ""
+
+msgid "Service restarted."
+msgstr ""
+
+msgid "Restart service"
+msgstr ""
+
+msgid "Service stopped."
+msgstr ""
+
+msgid "Stop"
+msgstr ""
+
+msgid "Service started."
+msgstr ""
+
+msgid "Start"
+msgstr ""
+
+msgid "Show log"
+msgstr ""
+
+msgid "healthy"
+msgstr ""
+
+msgid "present, probing"
+msgstr ""
+
+msgid "down"
+msgstr ""
+
+msgid "Modem (LTE)"
+msgstr ""
+
+msgid "Wi-Fi station"
+msgstr ""
+
+msgid "Active uplink:"
+msgstr ""
+
+msgid "Link"
+msgstr ""
+
+msgid "Device"
+msgstr ""
+
+msgid "Gateway"
+msgstr ""
+
+msgid "DNS"
+msgstr ""
+
+msgid "Uplink policy"
+msgstr ""
+
+msgid "Choose which path to the internet is preferred and how a failed link is detected."
+msgstr ""
+
+msgid "With policy \"Auto\" the modem wins while it is healthy and the Wi-Fi station takes over"
+msgstr ""
+
+msgid "when the modem has no route or fails its health probe. The station DNS defaults to 8.8.8.8 8.8.4.4."
+msgstr ""
+
+msgid "Policy"
+msgstr ""
+
+msgid "Auto (modem first, station fallback)"
+msgstr ""
+
+msgid "Modem only"
+msgstr ""
+
+msgid "Station preferred"
+msgstr ""
+
+msgid "Station DNS"
+msgstr ""
+
+msgid "DNS servers advertised on the station uplink (space separated). Leave empty to use the DHCP-provided DNS."
+msgstr ""
+
+msgid "Probe target"
+msgstr ""
+
+msgid "Probe interval (s)"
+msgstr ""
+
+msgid "Probe timeout (s)"
+msgstr ""
+
+msgid "Failures to mark down"
+msgstr ""
+
+msgid "Successes to mark up"
+msgstr ""
+
+msgid "Uplink"
+msgstr ""
+
+msgid "The dual-uplink manager selects the default route between the LTE modem and the"
+msgstr ""
+
+msgid "Wi-Fi station, with health probes and a user policy."
+msgstr ""
+
+msgid "Overview"
+msgstr ""
+
+msgid "Configuration"
+msgstr ""
+

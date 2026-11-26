@@ -1,0 +1,151 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Modem Watchdog"
+msgstr ""
+
+msgid "Detects stalled LTE bearers and recovers the interface automatically. Changes take effect after saving and restarting the daemon."
+msgstr ""
+
+msgid "Running"
+msgstr ""
+
+msgid "Stopped / not installed"
+msgstr ""
+
+msgid "Current Status"
+msgstr ""
+
+msgid "Service"
+msgstr ""
+
+msgid "Daemon status"
+msgstr ""
+
+msgid "Watchdog Behaviour"
+msgstr ""
+
+msgid "Enable watchdog"
+msgstr ""
+
+msgid "Turn the stall-detection watchdog on or off entirely."
+msgstr ""
+
+msgid "Auto mobile (detect movement)"
+msgstr ""
+
+msgid "Automatically switch to the 30s/5s handover-safe profile when the serving cell changes (the device is moving), and revert to the stationary profile after a period of stillness. Boots into the stationary profile, so a parked device is unaffected. ON by default."
+msgstr ""
+
+msgid "Mobile mode (force, manual)"
+msgstr ""
+
+msgid "Force the 30s/5s stall-detection profile at all times (car, travel router) instead of auto-detecting movement. Only shown when Auto mobile is OFF; with Auto mobile ON this is unnecessary."
+msgstr ""
+
+msgid "Mobile grace (seconds)"
+msgstr ""
+
+msgid "Keep the mobile profile this long after the last detected cell change before reverting to stationary."
+msgstr ""
+
+msgid "Cell poll (seconds)"
+msgstr ""
+
+msgid "How often the watchdog samples the serving cell over ModemManager D-Bus to detect movement. Read-only; never wedges the modem."
+msgstr ""
+
+msgid "Stall timeout (seconds)"
+msgstr ""
+
+msgid "How long the bearer is quiet before the watchdog declares a stall. Range 30–600; the manual_override config can set values below 30 but the script will clamp to 30."
+msgstr ""
+
+msgid "Check interval (seconds)"
+msgstr ""
+
+msgid "How often the watchdog checks RX counters."
+msgstr ""
+
+msgid "Recovery cooldown (seconds)"
+msgstr ""
+
+msgid "Minimum gap between consecutive recovery attempts, so a flaky tower cannot flap the interface back-to-back."
+msgstr ""
+
+msgid "Keepalive (normally off)"
+msgstr ""
+
+msgid "DNS keepalive"
+msgstr ""
+
+msgid "Sends a tiny DNS query every few minutes while idle to keep the modem’s RRC layer in RRC_CONNECTED. Stock Android does NOT do this — leave disabled unless you have a specific network that drops silent bearers."
+msgstr ""
+
+msgid "Keepalive interval (seconds)"
+msgstr ""
+
+msgid "Keepalive target"
+msgstr ""
+
+msgid "Hostname that get a DNS lookup each interval."
+msgstr ""
+
+msgid "Recovery escalation"
+msgstr ""
+
+msgid "Allow SSR restart (modem subsystem reset)"
+msgstr ""
+
+msgid "Stage-3 ladder: restart the modem remoteproc. Android’s stock bam_dmux calls subsystem_restart(\"modem\") on the same A2 timeout sites, so this is parity. Disable ONLY if you want the modem state frozen for post-mortem analysis."
+msgstr ""
+
+msgid "Bearer-down redrive (seconds)"
+msgstr ""
+
+msgid "A netifd \"down\" interface still down this long after a rebuild is stuck — the watchdog retriggers `ifup` and re-arms the proto."
+msgstr ""
+
+msgid "Zombie-modem nudge (seconds)"
+msgstr ""
+
+msgid "After a modem crash the baseband can land in a low-power zombie state (no modem object, no registration). This many seconds without a modem object triggers one qmicli --dms-set-operating-mode=online poke. Set to 0 to disable."
+msgstr ""
+
+msgid "Voice liveness hold"
+msgstr ""
+
+msgid "When the data bearer has no downlink, skip the recovery ladder (no interface rebuild, no SSR) while a call is in progress, or, for a SIM without data service, while the modem is alive for voice (IMS registered, or registered with live serving-cell measurements). Restarting the modem cannot bring data to a voice-only SIM."
+msgstr ""
+
+msgid "SIM data service"
+msgstr ""
+
+msgid "Auto (no downlink with this SIM since boot = no data service)"
+msgstr ""
+
+msgid "Data SIM (only a call holds the ladder)"
+msgstr ""
+
+msgid "Voice-only SIM"
+msgstr ""
+
+msgid "Auto tracks the SIM by ICCID: a SIM swap starts over, a modem restart does not. Any downlink packet ends the hold."
+msgstr ""
+
+msgid "Voice hold recheck (seconds)"
+msgstr ""
+
+msgid "How long a voice hold lasts before the watchdog checks again whether the modem is still alive for voice."
+msgstr ""
+
+msgid "Drop modem default route during hold"
+msgstr ""
+
+msgid "While a SIM without data service is held, remove the modem's default routes so traffic never falls back to the empty bearer (e.g. while the Wi-Fi station reconnects). Only while another uplink has a default route or had one in the last 5 minutes; with the modem as the only uplink the routes stay. They are restored when the hold ends. A data SIM keeps its routes."
+msgstr ""
+
+msgid "Watchdog restart requested; check status if anything looks wrong."
+msgstr ""
+

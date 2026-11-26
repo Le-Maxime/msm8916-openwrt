@@ -1,0 +1,199 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "blank"
+msgstr ""
+
+msgid "signal bars"
+msgstr ""
+
+msgid "operator / NO SIM"
+msgstr ""
+
+msgid "SIM status"
+msgstr ""
+
+msgid "Wi-Fi mode"
+msgstr ""
+
+msgid "data activity arrows"
+msgstr ""
+
+msgid "battery level / charging"
+msgstr ""
+
+msgid "unread SMS count"
+msgstr ""
+
+msgid "call status / incoming call"
+msgstr ""
+
+msgid "Wi-Fi SSID"
+msgstr ""
+
+msgid "Wi-Fi password"
+msgstr ""
+
+msgid "IP address"
+msgstr ""
+
+msgid "custom line 1"
+msgstr ""
+
+msgid "custom line 2"
+msgstr ""
+
+msgid "Top band background"
+msgstr ""
+
+msgid "Top band text"
+msgstr ""
+
+msgid "Middle band background"
+msgstr ""
+
+msgid "Bottom band background"
+msgstr ""
+
+msgid "Bottom band text"
+msgstr ""
+
+msgid "Active tile"
+msgstr ""
+
+msgid "Inactive tile"
+msgstr ""
+
+msgid "Notification background"
+msgstr ""
+
+msgid "Notification text"
+msgstr ""
+
+msgid "Top band, left"
+msgstr ""
+
+msgid "Top band, right"
+msgstr ""
+
+msgid "Tile 1"
+msgstr ""
+
+msgid "Tile 2"
+msgstr ""
+
+msgid "Tile 3"
+msgstr ""
+
+msgid "Tile 4"
+msgstr ""
+
+msgid "Bottom band, line 1"
+msgstr ""
+
+msgid "Bottom band, line 2"
+msgstr ""
+
+msgid "Live state"
+msgstr ""
+
+msgid "Values the dashboard is showing right now. They refresh every few seconds."
+msgstr ""
+
+msgid "No status available; is the collector running?"
+msgstr ""
+
+msgid "Dashboard settings saved and redrawn."
+msgstr ""
+
+msgid "Saving failed:"
+msgstr ""
+
+msgid "Dashboard reset to the Android-style defaults. Reloading…"
+msgstr ""
+
+msgid "Reset failed:"
+msgstr ""
+
+msgid "Dashboard refreshed."
+msgstr ""
+
+msgid "Refresh failed:"
+msgstr ""
+
+msgid "LCD Dashboard"
+msgstr ""
+
+msgid "Choose what the 128x128 LCD shows and in which colours. Each tile can display any source; two custom lines are free text. The panel redraws automatically every few seconds."
+msgstr ""
+
+msgid "Enable dashboard"
+msgstr ""
+
+msgid "Turn the renderer on or off. Power-button LCD control still works either way."
+msgstr ""
+
+msgid "Refresh interval (seconds)"
+msgstr ""
+
+msgid "Screen rotation"
+msgstr ""
+
+msgid "0 degrees (normal)"
+msgstr ""
+
+msgid "90 degrees clockwise"
+msgstr ""
+
+msgid "180 degrees upside down"
+msgstr ""
+
+msgid "270 degrees clockwise"
+msgstr ""
+
+msgid "Notifications"
+msgstr ""
+
+msgid "Show new SMS / missed call popups"
+msgstr ""
+
+msgid "Popup duration (seconds)"
+msgstr ""
+
+msgid "Zones"
+msgstr ""
+
+msgid "Top band and bottom band are text; the four middle tiles are icons plus a short value. \"blank\" hides a zone."
+msgstr ""
+
+msgid "unknown"
+msgstr ""
+
+msgid "Custom line 1"
+msgstr ""
+
+msgid "Shown when a zone is set to custom line 1"
+msgstr ""
+
+msgid "Custom line 2"
+msgstr ""
+
+msgid "Shown when a zone is set to custom line 2"
+msgstr ""
+
+msgid "Colours"
+msgstr ""
+
+msgid "Pick a swatch or type a #RRGGBB value."
+msgstr ""
+
+msgid "Refresh now"
+msgstr ""
+
+msgid "Restore defaults"
+msgstr ""
+
+msgid "Save & apply"
+msgstr ""
+

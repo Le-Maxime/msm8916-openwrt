@@ -825,3 +825,159 @@ msgstr "Вы уверены, что хотите удалить все файл�
 
 msgid "All files deleted successfully"
 msgstr "Все файлы успешно удалены"
+
+msgid "Close"
+msgstr "Закрыть"
+
+msgid "Save"
+msgstr "Сохранить"
+
+msgid "Unable to load file"
+msgstr "Не удалось загрузить файл"
+
+msgid "Unable to delete files"
+msgstr "Не удалось удалить файлы"
+
+msgid "Create"
+msgstr "Создать"
+
+msgid "Error"
+msgstr "Ошибка"
+
+msgid "Own number (SIM)"
+msgstr "Свой номер (SIM)"
+
+msgid "Filled in from the SIM when the operator provisioned it; many prepaid SIMs leave this blank, in which case you can type it here."
+msgstr "Заполняется с SIM-карты, если оператор записал номер; на многих предоплаченных SIM поле пустое — тогда номер можно ввести вручную."
+
+msgid "Not provided by this SIM"
+msgstr "Не указан на SIM-карте"
+
+msgid "Detect modem and SIM"
+msgstr "Определить модем и SIM"
+
+msgid "Points all four modem selectors at the first modem, sets the country prefix from the SIM and reads the own number when the SIM carries one. Values you set by hand are kept."
+msgstr "Выбирает первый найденный модем во всех четырёх полях, определяет код страны по SIM и считывает собственный номер (если он записан на SIM). Введённые вручную значения сохраняются."
+
+msgid "Detect"
+msgstr "Определить"
+
+msgid "No modem found"
+msgstr "Модем не найден"
+
+msgid "Detection failed"
+msgstr "Ошибка определения"
+
+msgid "No valid SMS messages to save"
+msgstr "Нет корректных SMS-сообщений для сохранения"
+
+msgid "Save "
+msgstr "Сохранить "
+
+msgid "Saving..."
+msgstr "Сохранение..."
+
+msgid "Please wait.."
+msgstr "Пожалуйста, подождите.."
+
+msgid "Saving SMS messages to a file failed. Please try again"
+msgstr "Не удалось сохранить SMS-сообщения в файл. Попробуйте снова"
+
+msgid "Download error: "
+msgstr "Ошибка загрузки: "
+
+msgid "Error reading SMS messages: "
+msgstr "Ошибка чтения SMS: "
+
+msgid "Delete all messages"
+msgstr "Удалить все сообщения"
+
+msgid "This option allows you to delete all SMS messages when they are not visible in the 'Received Messages' tab."
+msgstr "Эта опция позволяет удалить все SMS-сообщения, даже если они не отображаются на вкладке «Полученные сообщения»."
+
+msgid "Delete all"
+msgstr "Удалить все"
+
+msgid "mailsend package"
+msgstr "Пакет mailsend"
+
+msgid "mailsend"
+msgstr "mailsend"
+
+msgid "Select one of the available modems from ModemManager. \t\t\t<br /><br /><b>Important</b> \t\t\t<br />Sending AT commands via ModemManager requires the AT command interface to be compiled in. \t\t\tThis functionality is not available in the standard ModemManager package and requires custom compilation with AT command support enabled."
+msgstr "Выберите один из доступных модемов в ModemManager. \t\t\t<br /><br /><b>Важно</b> \t\t\t<br />Для отправки AT-команд через ModemManager требуется поддержка AT-интерфейса, включённая при сборке ModemManager."
+
+msgid "Select 'No' in case the router has only one LED or if the LED is multi-tasking. \t\t\t\t<br /><br /><b>Important</b> \t\t\t\t<br />This option requires LED to be defined in the system (if possible) to work properly. \t\t\t\tThis requirement applies when the diode supports multiple tasks."
+msgstr "Выберите «Нет», если у роутера только один светодиод или он выполняет несколько функций. \t\t\t\t<br /><br /><b>Важно</b> \t\t\t\t<br />Для корректной работы индикатор должен быть настроен в системе."
+
+msgid "SMS forwarding function is not enabled"
+msgstr "Пересылка SMS отключена"
+
+msgid "Error sending e-mail: %s"
+msgstr "Ошибка отправки e-mail: %s"
+
+msgid "Command blocked"
+msgstr "Команда заблокирована"
+
+msgid "SMS sent successfully!"
+msgstr "SMS успешно отправлено!"
+
+msgid "Error sending SMS: "
+msgstr "Ошибка отправки SMS: "
+
+msgid "SMS sent."
+msgstr "SMS отправлено."
+
+msgid "Error: "
+msgstr "Ошибка: "
+
+msgid "Please specify the phone number"
+msgstr "Укажите номер телефона"
+
+msgid "Please specify the message to send"
+msgstr "Введите текст сообщения"
+
+msgid "Phone book is empty"
+msgstr "Телефонная книга пуста"
+
+msgid "No valid phone numbers in phonebook"
+msgstr "В телефонной книге нет корректных номеров"
+
+msgid "Sending SMS to %d contacts..."
+msgstr "Отправка SMS %d контактам..."
+
+msgid "Send Messages"
+msgstr "Отправка SMS"
+
+msgid "Configuration"
+msgstr "Настройка"
+
+msgid "Download error:"
+msgstr "Ошибка загрузки: "
+
+msgid "Error reading SMS messages:"
+msgstr "Ошибка чтения SMS: "
+
+msgid "Error listing SMS:"
+msgstr "Ошибка при составлении списка SMS: "
+
+msgid "Error deleting messages:"
+msgstr "Ошибка при удалении сообщений: "
+
+msgid "Error loading SMS details:"
+msgstr "Ошибка при загрузке данных SMS: "
+
+msgid "Error loading AT commands file:"
+msgstr "Ошибка загрузки файла AT-команд: "
+
+msgid "Error sending SMS:"
+msgstr "Ошибка отправки SMS: "
+
+msgid "Error:"
+msgstr "Ошибка: "
+
+msgid "Error creating SMS:"
+msgstr "Ошибка при создании SMS: "
+
+msgid "Error loading USSD codes file:"
+msgstr "Ошибка загрузки файла кодов USSD: "

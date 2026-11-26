@@ -1,0 +1,253 @@
+msgid ""
+msgstr ""
+"Language: ru\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "Phone"
+msgstr "Телефон"
+
+msgid "Calls are carried by the mobile network (VoLTE) and handed to a Bluetooth headset and/or SIP phones on this device. This page configures the SIP accounts, where calls go, and the audio path. Changes take effect as soon as they are applied; a call in progress is not interrupted."
+msgstr "Вызовы проходят через мобильную сеть (VoLTE) и передаются на Bluetooth-гарнитуру и/или SIP-телефоны. Здесь настраиваются SIP-аккаунты, маршрутизация вызовов и аудиотракт. Изменения применяются сразу и не прерывают текущий разговор."
+
+msgid "Status helper"
+msgstr "Помощник статуса"
+
+msgid "not available"
+msgstr "недоступно"
+
+msgid "Modem"
+msgstr "Модем"
+
+msgid "IMS registration"
+msgstr "Регистрация IMS"
+
+msgid "Audio DSP"
+msgstr "Аудио DSP"
+
+msgid "not responding"
+msgstr "не отвечает"
+
+msgid "calls connect but carry no audio; reboot the device"
+msgstr "вызовы соединяются, но звука нет; перезагрузите устройство"
+
+msgid "Call daemon"
+msgstr "Служба вызовов"
+
+msgid "IMS data service"
+msgstr "Служба данных IMS"
+
+msgid "Bluetooth HFP"
+msgstr "Bluetooth HFP"
+
+msgid "Audio bridge"
+msgstr "Аудиомост"
+
+msgid "running"
+msgstr "запущен"
+
+msgid "stopped"
+msgstr "остановлен"
+
+msgid "Services"
+msgstr "Службы"
+
+msgid "Active calls"
+msgstr "Активные вызовы"
+
+msgid "Status"
+msgstr "Статус "
+
+msgid "Service"
+msgstr "Служба"
+
+msgid "Run the IMS data service"
+msgstr "Запускать службу данных IMS"
+
+msgid "Lets the modem register for VoLTE. Without it the modem has no IMS data connection and calls fall back to the circuit-switched network (which this device does not have on 4G)."
+msgstr "Позволяет модему регистрироваться в VoLTE. Без этого нет IMS-подключения и звонки уходят в 3G/2G (или не работают на 4G)."
+
+msgid "Where calls go"
+msgstr "Маршрутизация вызовов"
+
+msgid "Bluetooth headset and SIP phones"
+msgstr "Bluetooth-гарнитура и SIP-телефоны"
+
+msgid "Bluetooth headset only"
+msgstr "Только Bluetooth-гарнитура"
+
+msgid "SIP phones only"
+msgstr "Только SIP-телефоны"
+
+msgid "Answer on the device, no audio routing"
+msgstr "Ответ на устройстве без маршрутизации звука"
+
+msgid "Auto-answer after (seconds)"
+msgstr "Автоответ через (сек)"
+
+msgid "0 never answers by itself."
+msgstr "0 — никогда не отвечать автоматически."
+
+msgid "Manage auto-answer"
+msgstr "Настройка автоответа"
+
+msgid "Stops the ModemManager auto-answer service while this daemon runs, so the two cannot both answer a call."
+msgstr "Останавливает службу автоответа ModemManager на время работы этого демона, чтобы оба не отвечали на вызов одновременно."
+
+msgid "Incoming call notifications"
+msgstr "Уведомления о входящих вызовах"
+
+msgid "A phone whose SIP client has been suspended by the system (iOS does this to any app in the background) has no registration, so Asterisk cannot ring it at all. A push notification wakes the phone; opening the client re-registers it and the call is rung while it still rings. Messages are sent through ntfy, which needs no account."
+msgstr "Если система усыпила SIP-клиент на смартфоне (например, на iOS в фоне), Asterisk не сможет до него дозвониться. Push-уведомление разбудит телефон, клиент перерегистрируется и примет вызов. Уведомления отправляются через ntfy без регистрации аккаунта."
+
+msgid "Send a notification"
+msgstr "Отправлять уведомление"
+
+msgid "Sends one message per incoming call, with the caller's number."
+msgstr "Отправляет сообщение с номером звонящего при каждом входящем вызове."
+
+msgid "ntfy server"
+msgstr "Сервер ntfy"
+
+msgid "The server to post to. Use https://ntfy.sh, or your own if you run one."
+msgstr "Адрес сервера. Используйте https://ntfy.sh или свой собственный."
+
+msgid "Topic"
+msgstr "Топик (канал)"
+
+msgid "The topic your phone subscribes to in the ntfy app. Anyone who knows it can read the messages, so pick something unguessable."
+msgstr "Топик, на который подписано приложение ntfy на телефоне. Любой, кто знает имя топика, может читать сообщения — выберите сложное имя."
+
+msgid "Access token"
+msgstr "Токен доступа"
+
+msgid "Only for a server with access control. Left empty, no token is sent."
+msgstr "Только для серверов с авторизацией. Если пусто — токен не отправляется."
+
+msgid "Open on tap"
+msgstr "Открывать по нажатию"
+
+msgid "A link to open when the notification is tapped, instead of the ntfy app. Point it at a URI your softphone registers — for example <code>sip:100@192.168.8.1</code>, or the app's own scheme such as <code>linphone:</code> or <code>zoiper:</code>. One tap then opens the client and re-registers it. Does nothing if no app claims that URI. Leave empty to keep opening the ntfy app."
+msgstr "Ссылка, открываемая при нажатии на уведомление вместо приложения ntfy. Укажите URI вашего софтфона (напр., <code>sip:100@192.168.8.1</code>, <code>linphone:</code> или <code>zoiper:</code>), чтобы одним касанием открыть и перерегистрировать клиент."
+
+msgid "Topic password"
+msgstr "Пароль топика"
+
+msgid "Encrypts the message end to end, so the server only stores ciphertext. Set the same password on the topic in the app (topic menu, End-to-end encryption). Left empty, the message is sent in the clear and anyone who knows the topic can read it."
+msgstr "Сквозное шифрование сообщения (на сервере хранится только шифротекст). Задайте такой же пароль в настройках топика в приложении. Если пусто — сообщения передаются открытым текстом."
+
+msgid "SIP accounts"
+msgstr "SIP-аккаунты"
+
+msgid "Phones that register to Asterisk on this device. The dialplan sends every call to the mobile network, and incoming mobile calls ring all accounts at once. Leave the password empty to have one generated."
+msgstr "Телефоны, регистрирующиеся в Asterisk на этом устройстве. Исходящие идут в мобильную сеть, а входящие звонят сразу на все аккаунты. Если оставить пароль пустым, он сгенерируется автоматически."
+
+msgid "Number"
+msgstr "Номер"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "generated"
+msgstr "сгенерирован"
+
+msgid "Also written to /etc/asterisk/ufi-voice-phones.txt on the device."
+msgstr "Также записано в /etc/asterisk/ufi-voice-phones.txt на устройстве."
+
+msgid "Registered"
+msgstr "Зарегистрирован"
+
+msgid "no"
+msgstr "нет"
+
+msgid "yes"
+msgstr "да"
+
+msgid "Audio"
+msgstr "Аудио"
+
+msgid "Jitter buffer (ms)"
+msgstr "Джиттер-буфер (мс)"
+
+msgid "Audio from the phones is buffered this long before it is played into the call. Raise it if the far end hears choppy speech over Wi-Fi; lower it to reduce delay. 40 ms suits a wired or good Wi-Fi link."
+msgstr "Время буферизации звука от телефонов перед передачей в вызов. Увеличьте при заиканиях по Wi-Fi или уменьшите для снижения задержки. Для хорошего Wi-Fi подходит 40 мс."
+
+msgid "PCM rate"
+msgstr "Частота PCM"
+
+msgid "Sample rate of the in-call audio device. 48 kHz gives 10 ms periods, which is what the DSP expects."
+msgstr "Частота дискретизации аудиоустройства вызова. 48 кГц даёт периоды по 10 мс, как ожидает DSP."
+
+msgid "Mute the unused microphone port"
+msgstr "Отключать неиспользуемый порт микрофона"
+
+msgid "Keeps the internal Bluetooth SCO microphone out of the call, so only the phones supply uplink audio."
+msgstr "Исключает внутренний микрофон Bluetooth SCO из вызова, чтобы звук шёл только с телефонов."
+
+msgid "Log audio statistics"
+msgstr "Записывать статистику аудио"
+
+msgid "Writes a voicebridge statistics line to the system log every 5 seconds. Useful when diagnosing choppy audio; leave off otherwise."
+msgstr "Каждые 5 секунд записывает статистику voicebridge в системный журнал. Полезно для диагностики прерываний звука; в остальное время держите выключенным."
+
+msgid "Bluetooth headset"
+msgstr "Bluetooth-гарнитура"
+
+msgid "Headset address"
+msgstr "Адрес гарнитуры"
+
+msgid "MAC address of the headset to connect to, e.g. 00:11:22:33:44:55. Pair it first with bluetoothctl."
+msgstr "MAC-адрес гарнитуры (например, 00:11:22:33:44:55). Предварительно выполните сопряжение через bluetoothctl."
+
+msgid "Reconnect backoff (seconds)"
+msgstr "Задержка переподключения (сек)"
+
+msgid "How long to keep paging a disconnected headset, doubling from 60 s. Each page briefly blinds the Wi-Fi station (shared 2.4 GHz radio). 0 never pages."
+msgstr "Как долго пытаться переподключиться к отключённой гарнитуре (удвоение от 60 с). Каждая попытка ненадолго глушит Wi-Fi на 2.4 ГГц. 0 — не искать."
+
+msgid "Advanced"
+msgstr "Дополнительно"
+
+msgid "Voice session"
+msgstr "Голосовая сессия"
+
+msgid "DSP voice path used for call audio. Auto picks VoLTE while IMS is registered and the circuit-switched session otherwise."
+msgstr "Голосовой тракт DSP для вызова. «Авто» выбирает VoLTE при регистрации IMS и обычную сеть в противном случае."
+
+msgid "Auto"
+msgstr "Авто"
+
+msgid "VoLTE"
+msgstr "VoLTE"
+
+msgid "Circuit switched"
+msgstr "Коммутация каналов (3G/2G)"
+
+msgid "AudioSocket port"
+msgstr "Порт AudioSocket"
+
+msgid "Asterisk AMI user"
+msgstr "Пользователь Asterisk AMI"
+
+msgid "Asterisk AMI password"
+msgstr "Пароль Asterisk AMI"
+
+msgid "Left empty, a random password is generated and shared with Asterisk."
+msgstr "Если пусто — генерируется случайный пароль и передаётся в Asterisk."
+
+msgid "Mobile interface"
+msgstr "Мобильный интерфейс"
+
+msgid "netifd interface of the mobile data connection."
+msgstr "Интерфейс netifd для мобильного подключения."
+
+msgid "Restart IMS after (seconds)"
+msgstr "Перезапуск IMS через (сек)"
+
+msgid "Restarts the IMS data service when IMS has had no connection for this long, doubling up to one hour while that does not help. 0 never."
+msgstr "Перезапускает службу данных IMS при отсутствии подключения дольше этого времени (с удвоением интервала до 1 часа). 0 — никогда."
+
+msgid "Saved, but applying failed:"
+msgstr "Сохранено, но применить не удалось: "
+
